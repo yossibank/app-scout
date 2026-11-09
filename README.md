@@ -36,7 +36,7 @@ flowchart LR
 | 項目 | 内容 |
 | --- | --- |
 | 言語 | Python 3.13 以上 |
-| 道具 | uv |
+| 道具 | uv 0.13 以上 |
 | API | FastAPI |
 | データ | SQLite、sqlite-vec |
 | モデル | Claude API（Sonnet 5.5、Haiku 5.5）、手元の埋め込みモデル |
