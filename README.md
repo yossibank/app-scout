@@ -36,9 +36,19 @@ flowchart LR
 | 項目 | 内容 |
 | --- | --- |
 | 言語 | Python 3.13 以上 |
+| 道具 | uv 0.13 以上 |
 | API | FastAPI |
 | データ | SQLite、sqlite-vec |
 | モデル | Claude API（Sonnet 5.5、Haiku 5.5）、手元の埋め込みモデル |
+
+[手順とコマンド](docs/development.md)
+
+## 🚀 入れ方
+
+```sh
+brew install uv
+uv sync
+```
 
 ## 📚 文書
 
@@ -46,3 +56,4 @@ flowchart LR
 | --- | --- |
 | [docs/overview.md](docs/overview.md) | 狙い、守ること、解決したい不満、最初のリリースの機能 |
 | [docs/roadmap.md](docs/roadmap.md) | 作る順番と状態 |
+| [docs/development.md](docs/development.md) | 動かし方とコマンド |
